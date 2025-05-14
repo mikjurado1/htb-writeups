@@ -7,8 +7,8 @@ Los writeups están organizados por **tipo de reto** y **nivel de dificultad**.
 
 ## 🔍 Sherlock (análisis de logs, forense, inteligencia)
 
-- [`Origin`](sherlock/origin.md)
-- [`DroidPhish`](sherlock/DroidPhish.md)
+- [`Origin`](sherlock/easy/origin.md)
+- [`DroidPhish`](sherlock/easy/DroidPhish.md)
 
 ---
 
