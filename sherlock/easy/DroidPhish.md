@@ -158,9 +158,9 @@ Resultado: com.hostel.mount
 ````
 
 🔐 Análisis de permisos – APK malicioso (Booking.apk)
-🧩 Pregunta
 
-¿Cuántos permisos de ejecución (runtime permissions) fueron concedidos a la aplicación maliciosa?
+🧩 Pregunta: ¿Cuántos permisos de ejecución (runtime permissions) fueron concedidos a la aplicación maliciosa?
+
 🔍 Procedimiento
 
 1. Descompilé el APK malicioso con apktool para acceder al archivo AndroidManifest.xml:
@@ -188,15 +188,13 @@ j. CALL_PHONE
 k. READ_EXTERNAL_STORAGE
 l. WRITE_EXTERNAL_STORAGE
 m. READ_PHONE_STATE
+
 ✅ Respuesta final: 13 permisos de ejecución
 
 🧠 DroidPhish – Identificación del Servidor C2 (Comando y Control)
-🧩 Pregunta
+🧩 Pregunta: Identify the C2 IP address and port that the malicious application was programmed to connect to.
 
-Identify the C2 IP address and port that the malicious application was programmed to connect to.
-🔍 Análisis
-
-Dado que no logré localizar de forma confiable la dirección IP y puerto dentro del código APK o en el sistema de archivos, recurrí a un método alternativo y muy utilizado en análisis de malware: VirusTotal.
+🔍 Análisis: Dado que no logré localizar de forma confiable la dirección IP y puerto dentro del código APK o en el sistema de archivos, recurrí a un método alternativo y muy utilizado en análisis de malware: VirusTotal.
 
 a. Subí el hash256 a VirusTotal.
 b. Me dirigí a la pestaña "Behavior".
