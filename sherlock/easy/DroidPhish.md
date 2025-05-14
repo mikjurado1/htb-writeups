@@ -115,9 +115,10 @@ Objetivo: Encontrar la URL desde la cual se descargó la aplicación maliciosa (
 Metodología: Exploración manual del sistema Android montado.
 
 a. Navegué por el sistema de archivos montado (/mnt/droidphish/...) usando la terminal en Kali Linux.
-b. Permisos necesarios: Algunas carpetas requerían privilegios de superusuario, así que ejecuté sudo su para tener acceso completo.
-c. Ruta relevante identificada Ubicación del historial de descargas de Chrome:
 
+b. Permisos necesarios: Algunas carpetas requerían privilegios de superusuario, así que ejecuté sudo su para tener acceso completo.
+
+c. Ruta relevante identificada Ubicación del historial de descargas de Chrome:
 ```bash
 /data/data/com.android.chrome/app_chrome/Default/History
 ````
