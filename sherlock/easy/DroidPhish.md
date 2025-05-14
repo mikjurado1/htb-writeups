@@ -109,7 +109,8 @@ date -u -d @1732467882
 # Resultado: 2024-11-24 17:04:42 UTC
 ````
 
-🕵️ Análisis forense: URL de descarga maliciosa
+🕵️ Análisis forense: URL de descarga maliciosa.
+
 Objetivo: Encontrar la URL desde la cual se descargó la aplicación maliciosa (Booking.apk).
 
 Metodología: Exploración manual del sistema Android montado.
