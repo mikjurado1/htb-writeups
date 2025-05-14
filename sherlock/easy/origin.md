@@ -1,4 +1,4 @@
-Origin (easy)
+Origin (Sherlock - easy)
 
 1. Primeramente abrimos el archivo ftp.pcap
 ![image](https://github.com/user-attachments/assets/9da65aa7-6e9f-44d1-87d7-240d5f238e5f)
