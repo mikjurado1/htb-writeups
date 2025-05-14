@@ -175,18 +175,31 @@ grep 'uses-permission' ~/booking_apk/AndroidManifest.xml
 3. Identifiqué los permisos que corresponden a la categoría runtime permissions, según la documentación oficial de Android (nivel de protección "dangerous").
 
 4. Conté los siguientes 13 permisos como runtime:
+
 a. SEND_SMS
+
 b. READ_SMS
+
 c. READ_CALL_LOG
+
 d. READ_CONTACTS
+
 e. GET_ACCOUNTS
+
 f. CAMERA
+
 g. RECORD_AUDIO
+
 h. ACCESS_COARSE_LOCATION
+
 i. ACCESS_FINE_LOCATION
+
 j. CALL_PHONE
+
 k. READ_EXTERNAL_STORAGE
+
 l. WRITE_EXTERNAL_STORAGE
+
 m. READ_PHONE_STATE
 
 ✅ Respuesta final: 13 permisos de ejecución
